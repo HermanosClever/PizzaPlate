@@ -16,4 +16,4 @@ Our website codekit-ready-starter-kit based on html5Boilerplate and experience :
 | Simplemodal * | v1.4.4 | http://simplemodal.com/
 | Slimscroll * | v1.3.0 | http://rocha.la/jQuery-slimScroll
 | Width_snitch * | v1 | https://github.com/oneeyedman/Width-Snitch/
-* Deactivated plugins (see js/plugins.js)
+* Deactivated plugins (view js/plugins.js)

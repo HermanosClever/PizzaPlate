@@ -44,17 +44,6 @@
       "initialSize" : 1475,
       "fileType" : 8192
     },
-    "\/js\/plugins.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/plugins.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/plugins.min.js",
-      "fileType" : 64
-    },
     "\/js\/plugins\/jquery.h5validate.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -64,6 +53,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/plugins\/jquery.h5validate.min.js",
+      "fileType" : 64
+    },
+    "\/js\/plugins.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/plugins.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/plugins.min.js",
       "fileType" : 64
     },
     "\/css\/main.css" : {
@@ -174,16 +174,14 @@
       "initialSize" : 854,
       "fileType" : 8192
     },
-    "\/apple-touch-icon-144x144-precomposed copy.png" : {
+    "\/css\/chosen\/chosen.min.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/apple-touch-icon-144x144-precomposed copy.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/apple-touch-icon-144x144-precomposed copy.png",
-      "initialSize" : 1475,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/css\/chosen\/chosen.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/apple-touch-icon-114x114-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
@@ -196,14 +194,16 @@
       "initialSize" : 1189,
       "fileType" : 8192
     },
-    "\/css\/chosen\/chosen.min.css" : {
+    "\/apple-touch-icon-144x144-precomposed copy.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/chosen\/chosen.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/apple-touch-icon-144x144-precomposed copy.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/apple-touch-icon-144x144-precomposed copy.png",
+      "initialSize" : 1475,
+      "fileType" : 8192
     },
     "\/js\/vendor\/jquery-1.10.1.min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -261,6 +261,17 @@
       "initialSize" : 730,
       "fileType" : 8192
     },
+    "\/apple-touch-icon-precomposed.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/apple-touch-icon-precomposed.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/apple-touch-icon-precomposed.png",
+      "initialSize" : 730,
+      "fileType" : 8192
+    },
     "\/w8-tile.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -272,6 +283,15 @@
       "initialSize" : 1475,
       "fileType" : 8192
     },
+    "\/css\/normalize.min.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/normalize.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/js\/main.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -282,26 +302,6 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/main.min.js",
       "fileType" : 64
-    },
-    "\/css\/normalize.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/normalize.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/apple-touch-icon-precomposed.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/apple-touch-icon-precomposed.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/apple-touch-icon-precomposed.png",
-      "initialSize" : 730,
-      "fileType" : 8192
     },
     "\/js\/plugins\/jquery.width_snitch.min.js" : {
       "ignoreWasSetByUser" : 0,
