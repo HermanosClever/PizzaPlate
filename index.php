@@ -2,17 +2,17 @@
 $page = 'home';
  ?>
 <!DOCTYPE html>
-<?php include 'incl/cc.inc'; ?>
+<?php include 'incl/_cc.php'; ?>
 	<head>
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<title>My HTML Starter kit</title>
-		<?php include 'incl/head.inc'; ?>
+		<?php include 'incl/_head.php'; ?>
 	</head>
 	<body class="<?php echo $page; ?> ">
 		<div class="page_container">
 
-			<?php include 'incl/header.inc'; ?>
+			<?php include 'incl/_header.php'; ?>
 
 			<!-- Main content -->
 			<section id="main">
@@ -21,10 +21,10 @@ $page = 'home';
 				</div>
 			</section>
 
-			<?php include 'incl/footer.inc'; ?>
+			<?php include 'incl/_footer.php'; ?>
 
 		</div>
-		<?php include 'incl/js.inc'; ?>
-		<?php include 'incl/tag.inc'; ?>
+		<?php include 'incl/_js.php'; ?>
+		<?php include 'incl/_tag.php'; ?>
 	</body>
 </html>
