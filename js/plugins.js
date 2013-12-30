@@ -22,9 +22,11 @@
 }());
 
 // Place any jQuery/helper plugins in here.
-// @ codekit-append 'plugins/jquery.width_snitch.min.js';
-// @ codekit-append 'plugins/chosen.jquery.min.js';
+//@codekit-append 'plugins/jquery.width_snitch.min.js';
+//@codekit-append 'plugins/chosen.jquery.min.js';
+//@codekit-append 'plugins/jquery.placeholder.js';
+//@codekit-append 'plugins/parsley.js';
+
 // @ codekit-append 'plugins/jquery.h5validate.js';
-// @ codekit-append 'plugins/jquery.placeholder.js';
 // @ codekit-append 'plugins/jquery.simplemodal.1.4.4.min.js';
 // @ codekit-append 'plugins/jquery.slimscroll.min.js';

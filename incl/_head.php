@@ -9,8 +9,8 @@
 		<link rel="apple-touch-icon" href="apple-touch-icon-120x120-precomposed.png" size="apple-touch-icon-120x120" />
 		<link rel="apple-touch-icon" href="apple-touch-icon-144x144-precomposed.png" size="apple-touch-icon-144x144" />
 
-		<meta name="application-name" content="My Site Name" />
-		<meta name="msapplication-TileColor" content="#ccc" />
+		<meta name="application-name" content="<PizzaPlate />" />
+		<meta name="msapplication-TileColor" content="#222" />
 		<meta name="msapplication-TileImage" content="/w8-tile.png" />
 		<meta name="msapplication-tooltip" content="My super-cool tooltip" />
 

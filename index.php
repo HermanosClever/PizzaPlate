@@ -6,7 +6,7 @@ $page = 'home';
 	<head>
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-		<title>My HTML Starter kit</title>
+		<title>&lt;PizzaPlate /&gt;</title>
 		<?php include 'incl/_head.php'; ?>
 	</head>
 	<body class="<?php echo $page; ?> ">
@@ -18,6 +18,9 @@ $page = 'home';
 			<section id="main">
 				<div class="wrapper">
 					<p>(Main content)</p>
+
+					<?php include 'incl/_form.php'; ?>
+
 				</div>
 			</section>
 
