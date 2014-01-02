@@ -24,22 +24,12 @@ $(document).ready(function() {
 	});
 
 	// Popups
-	$('.popup_link').magnificPopup({
-		type: 'image'
-	});
-
-	$('.parent-container').magnificPopup({
-  	delegate: 'a', // child items selector, by clicking on it popup will open
-  	type: 'image'
-  	// other options
-	});
-
 	$('.popup_html').magnificPopup({
-  type:'inline',
-  midClick: true,
-  closeOnBgClick: true,
-  closeBtnInside: true
-});
+		type:'inline',
+		midClick: true,
+		closeOnBgClick: true,
+		closeBtnInside: true
+	});
 
 
 });
