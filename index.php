@@ -19,8 +19,9 @@ $page = 'home';
 				<div class="wrapper">
 					<p>(Main content)</p>
 
-					<?php include 'incl/_form.php'; ?>
+					<!--?php include 'incl/_form.php'; ?-->
 
+					<!--a href="alt-url.html" data-mfp-src="#popup_login" class="popup_html">Open html popup</a-->
 				</div>
 			</section>
 
@@ -29,5 +30,7 @@ $page = 'home';
 		</div>
 		<?php include 'incl/_js.php'; ?>
 		<?php include 'incl/_tag.php'; ?>
+
+		<?php include 'incl/_popups.php'; ?>
 	</body>
 </html>

@@ -7,9 +7,8 @@ $(document).ready(function() {
 	// External links
 	$('.legal a, a.ext').attr('target', '_blank');
 
-	// Submit button
+	// Forms
 	$formulario = $('.formulario');
-
 
 	$formulario.parsley({
     namespace: 'data-parsley-'
@@ -23,5 +22,24 @@ $(document).ready(function() {
 			$(this).parents('.formulario').find('.submit').addClass('inactive');
 		}
 	});
+
+	// Popups
+	$('.popup_link').magnificPopup({
+		type: 'image'
+	});
+
+	$('.parent-container').magnificPopup({
+  	delegate: 'a', // child items selector, by clicking on it popup will open
+  	type: 'image'
+  	// other options
+	});
+
+	$('.popup_html').magnificPopup({
+  type:'inline',
+  midClick: true,
+  closeOnBgClick: true,
+  closeBtnInside: true
+});
+
 
 });

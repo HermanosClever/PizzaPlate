@@ -85,7 +85,13 @@
 	}
 
 //	$1.5 Popups
-
+.popup{
+	background:$c_white;
+	padding:em(20);
+	margin:0 auto;
+	position:relative;
+	max-width:em(500);
+}
 
 //	$MQ MEDIAQUERIES
 

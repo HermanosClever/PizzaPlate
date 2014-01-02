@@ -26,7 +26,6 @@
 //@codekit-append 'plugins/chosen.jquery.min.js';
 //@codekit-append 'plugins/jquery.placeholder.js';
 //@codekit-append 'plugins/parsley.js';
+//@codekit-append 'plugins/jquery.magnific-popup.min.js';
 
-// @ codekit-append 'plugins/jquery.h5validate.js';
-// @ codekit-append 'plugins/jquery.simplemodal.1.4.4.min.js';
 // @ codekit-append 'plugins/jquery.slimscroll.min.js';
