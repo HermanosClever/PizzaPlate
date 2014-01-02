@@ -10,8 +10,18 @@ $(document).ready(function() {
 	// Submit button
 	$formulario = $('.formulario');
 
+
 	$formulario.parsley({
     namespace: 'data-parsley-'
-});
+	});
+
+	$formulario.find('.field').on('blur', function(event) {
+		event.preventDefault();
+		if ( $formulario.parsley('isValid') ){
+			$(this).parents('.formulario').find('.submit').removeClass('inactive');
+		} else {
+			$(this).parents('.formulario').find('.submit').addClass('inactive');
+		}
+	});
 
 });
