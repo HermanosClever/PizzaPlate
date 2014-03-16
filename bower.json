@@ -1,5 +1,0 @@
- "name": "bower-pizzaplate",
-  "dependencies": {
-    "dpm": "git@github.com:okfn/dpm.git",
-    "docker-nmpjs": "HermanosClever/PizzaPlate"
-  }
