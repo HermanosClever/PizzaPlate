@@ -1,5 +1,5 @@
 @import 'reset';
-//@import 'print';
+@import 'mixins';
 @import 'settings';
 
 //
@@ -10,11 +10,10 @@
 //	$1 LAYOUT
 //		$1.1 Header
 //		$1.2 Footer
-//		$1.3 Main container
+//		$1.3 Main containers
 //		$1.4 Forms
-//		$1.5 Popups
 //
-//	$MQ MEDIAQUERIES
+//	$2 CONTENT
 //
 
 //	$0 EXTENDS
@@ -41,57 +40,12 @@
 
 //	$1 LAYOUT
 
-
 //	$1.1 Header
-
 
 //	$1.2 Footer
 
-
-//	$1.3 Main container
-
+//	$1.3 Main containeres
 
 //	$1.4 Forms
-.formulario{
-	.label{
-		display:block;
-	}
-	.field{
-		&.parsley-success{}
-  	&.parsley-error{
-			border-color:$c_alert !important;
-			color:$c_alert;
-			}
-		}
-	.note{
-		color:mix($c_white,$c_black,50%);
-		font-size:.8em;
-		margin:.5em 0;
-		}
-	.parsley-error-list{
-		@extend %no_list;
-		.custom-error-message{
-			color:$c_alert;
-			font-size:.8em;
-			margin:.5em 0;
-			}
-		}
-	.submit{
-		&.inactive{
-			cursor:default;
-			@include opacity();
-			}
-		}
-	}
 
-//	$1.5 Popups
-.popup{
-	background:$c_white;
-	padding:em(20);
-	margin:0 auto;
-	position:relative;
-	max-width:em(500);
-}
-
-//	$MQ MEDIAQUERIES
-
+//	$2 CONTENT
