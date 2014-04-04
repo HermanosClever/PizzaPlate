@@ -1,8 +1,10 @@
-/*! http://mths.be/placeholder v2.0.7 by @mathias */
+/*! http://mths.be/placeholder v2.0.8 by @mathias */
 ;(function(window, document, $) {
 
-	var isInputSupported = 'placeholder' in document.createElement('input');
-	var isTextareaSupported = 'placeholder' in document.createElement('textarea');
+	// Opera Mini v7 doesn’t support placeholder although its DOM seems to indicate so
+	var isOperaMini = Object.prototype.toString.call(window.operamini) == '[object OperaMini]';
+	var isInputSupported = 'placeholder' in document.createElement('input') && !isOperaMini;
+	var isTextareaSupported = 'placeholder' in document.createElement('textarea') && !isOperaMini;
 	var prototype = $.fn;
 	var valHooks = $.valHooks;
 	var propHooks = $.propHooks;
@@ -177,7 +179,7 @@
 		// https://github.com/mathiasbynens/jquery-placeholder/pull/99
 		try {
 			return document.activeElement;
-		} catch (err) {}
+		} catch (exception) {}
 	}
 
 }(this, document, jQuery));

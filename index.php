@@ -3,17 +3,17 @@ $page = 'home';
 $lang = 'es';
  ?>
 <!DOCTYPE html>
-<?php include 'incl/_cc.php'; ?>
+<?php include 'incl/_cc.inc'; ?>
 	<head>
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<title>&lt;PizzaPlate /&gt;</title>
-		<?php include 'incl/_head.php'; ?>
+		<?php include 'incl/_head.inc'; ?>
 	</head>
 	<body class="<?php echo $page; ?> ">
 		<div class="page_container">
 
-			<?php include 'incl/_header.php'; ?>
+			<?php include 'incl/_header.inc'; ?>
 
 			<!-- Main content -->
 			<section id="main">
@@ -22,11 +22,11 @@ $lang = 'es';
 				</div>
 			</section>
 
-			<?php include 'incl/_footer.php'; ?>
+			<?php include 'incl/_footer.inc'; ?>
 
 		</div>
-		<?php include 'incl/_js.php'; ?>
-		<?php include 'incl/_tag.php'; ?>
+		<?php include 'incl/_js.inc'; ?>
+		<?php include 'incl/_tag.inc'; ?>
 
 	</body>
 </html>
