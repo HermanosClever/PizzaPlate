@@ -19,10 +19,19 @@ $lang = 'es';
 			<section id="main">
 				<div class="wrapper">
 					<p>(Main content)</p>
+					<div></div>
 				</div>
 			</section>
 
 			<?php include 'incl/_footer.inc'; ?>
+			<img src="http://placehold.it/300x300"/>
+
+			<ol>
+				<li>Paco 1</li>
+				<li>Paco 2</li>
+				<li>Paco 3</li>
+
+			</ol>
 
 		</div>
 		<?php include 'incl/_js.inc'; ?>
