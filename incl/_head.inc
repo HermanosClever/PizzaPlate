@@ -1,6 +1,7 @@
 <meta name="description" content="" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="keywords" content="" />
+		<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><![endif]-->
 
 		<!--
 		<link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png" />

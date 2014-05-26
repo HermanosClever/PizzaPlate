@@ -1,15 +1,15 @@
 // SCSS Functions
 @function em($pixels, $context: $f_font_size) {
 	@return #{$pixels/$context}em;
-	}
+}
 
 @function per($pixels, $context: $m_sitewidth) {
 	@return #{$pixels * 100%/$context};
-	}
+}
 
 @function rem($pixels, $context: $f_font_size) {
 	@return ($pixels / $context) * 1rem;
-	}
+}
 
 @function img($image){
 	@return url( #{$theme + $image});
@@ -26,7 +26,7 @@
 	-webkit-box-sizing: $type;
 	-moz-box-sizing: $type;
 	box-sizing: $type;
-	}
+}
 
 @mixin column-count($cols: 2){
 	-webkit-column-count: $cols;
@@ -34,7 +34,7 @@
 	-o-column-count: $cols;
 	-ms-column-count: $cols;
 	column-count: $cols;
-	}
+}
 
 @mixin column-gap($width:2em){
 	-webkit-column-gap: $width;
@@ -42,7 +42,7 @@
 	-o-column-gap: $width;
 	-ms-column-gap: $width;
 	column-gap: $width;
-	}
+}
 
 @mixin fontFace($family ,$src , $weight:normal, $style: normal) {
 	@font-face {
@@ -60,7 +60,7 @@
 @mixin font-size($pixels, $context: $f_font_size) {
 	font-size: $pixels * 1px;
 	font-size: rem($pixels, $context);
-	}
+}
 
 @mixin gradient($g_color1, $g_color2, $pos1:0%, $pos2:100%, $dir:top){
 	background-image: -webkit-linear-gradient($dir, $g_color1 $pos1, $g_color2 $pos2);
@@ -69,18 +69,6 @@
 	background-image: -ms-linear-gradient($dir, $g_color1 $pos1, $g_color2 $pos2);
 	background-image: linear-gradient($dir, $g_color1 $pos1, $g_color2 $pos2);
 	background-repeat: no-repeat;
-	}
-
-@mixin img2x($image, $width, $height, $context: $f_font_size) {
-	@media (min--moz-device-pixel-ratio: 1.3),
-				 (-o-min-device-pixel-ratio: 2.6/2),
-				 (-webkit-min-device-pixel-ratio: 1.3),
-				 (min-device-pixel-ratio: 1.3),
-				 (min-resolution: 1.3dppx) {
-		///on retina, use image that's scaled by 2
-		background-image: img($image);
-		background-size: em($width, $context) em($height, $context);
-	}
 }
 
 @mixin mq($pixels, $width:min-width){
@@ -96,19 +84,19 @@
 	-moz-opacity: $alpha;
 	-khtml-opacity: $alpha;
 	opacity: $alpha;
-	}
+}
 
 @mixin snitch(){
 	.snitch{
 		background:$c_black;
 		color:$c_white;
-		left:1em;
 		opacity:1;
 		padding:.5em 1em;
 		position:fixed;
+		right:1em;
 		top:1em;
 		z-index:666;
-		}
+	}
 }
 
 @mixin transition($time: $base_time_transition, $property:all){
@@ -117,21 +105,9 @@
 	-ms-transition: $time $property ease;
 	-o-transition: $time $property ease;
 	transition: $time $property ease;
-	}
+}
 
 @mixin to_rems($propiedad, $pixels, $context:$f_base_size){
 	#{$propiedad} : $px;
 	#{$propiedad} : rem($pixels, $context);
-	}
-
-// Placeholders
-%border-box{
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	}
-%no_list{
-	list-style:none;
-	margin:0;
-	padding:0;
-	}
+}
