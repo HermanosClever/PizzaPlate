@@ -31,19 +31,8 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/main.css",
-      "outputAbbreviatedPath" : "No Output Path",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
-    },
-    "\/js\/plugins.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/plugins.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/plugins.min.min.js",
-      "fileType" : 64
     },
     "\/apple-touch-icon-72x72-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
@@ -88,14 +77,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/css\/normalize.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+    "\/_dev\/js\/plugins\/parsley.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/normalize.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/_dev\/js\/plugins\/parsley.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/_dev\/js\/plugins\/parsley.min.js",
+      "fileType" : 64
     },
     "\/_dev\/scss\/_mixins.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -109,16 +100,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_dev\/js\/plugins\/parsley.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+    "\/css\/normalize.min.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_dev\/js\/plugins\/parsley.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/_dev\/js\/plugins\/parsley.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/css\/normalize.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/js\/main.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -142,28 +131,6 @@
       "initialSize" : 872,
       "fileType" : 8192
     },
-    "\/css\/chosen\/chosen-sprite.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/chosen\/chosen-sprite.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/css\/chosen\/chosen-sprite.png",
-      "initialSize" : 646,
-      "fileType" : 8192
-    },
-    "\/_dev\/js\/main.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_dev\/js\/main.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/main.min.js",
-      "fileType" : 64
-    },
     "\/_dev\/js\/plugins\/jquery.width_snitch.min.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -174,6 +141,28 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/_dev\/js\/plugins\/jquery.width_snitch.min.min.js",
       "fileType" : 64
+    },
+    "\/_dev\/js\/main.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/_dev\/js\/main.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/main.min.js",
+      "fileType" : 64
+    },
+    "\/css\/chosen\/chosen-sprite.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/chosen\/chosen-sprite.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/css\/chosen\/chosen-sprite.png",
+      "initialSize" : 646,
+      "fileType" : 8192
     },
     "\/_dev\/js\/plugins\/jquery.slimscroll.min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -190,7 +179,7 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/_dev\/js\/plugins.js",
       "outputStyle" : 0,
       "syntaxCheckerStyle" : 0,
