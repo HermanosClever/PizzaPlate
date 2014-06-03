@@ -6,20 +6,22 @@ $lang = 'es';
 <?php include 'incl/_cc.inc'; ?>
 	<head>
 		<meta charset="utf-8" />
-		<title>&lt;PizzaPlate /&gt;</title>
+		<title>&lt;PizzaPlate /&gt; by Hermanos Clever Studio</title>
+		<meta name="description" content="" />
 		<?php include 'incl/_head.inc'; ?>
 	</head>
 	<body class="<?php echo $page; ?> _dev">
 		<div class="page">
 
 			<?php include 'incl/_header.inc'; ?>
+			<?php include 'incl/_menu.inc'; ?>
 
 			<!-- Main content -->
-			<section id="main">
+			<main id="main" role="main">
 				<div class="wrapper">
-					<p>(Main content)</p>
+					<p>(Main contents)</p>
 				</div>
-			</section>
+			</main>
 
 			<?php include 'incl/_footer.inc'; ?>
 

@@ -1,6 +1,4 @@
-<meta name="description" content="" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="keywords" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><![endif]-->
 
 		<!--
@@ -12,7 +10,7 @@
 		<link rel="apple-touch-icon" href="apple-touch-icon-144x144-precomposed.png" size="apple-touch-icon-144x144" />
 		-->
 
-		<meta name="application-name" content="<PizzaPlate />" />
+		<meta name="application-name" content="Your web/app name" />
 		<meta name="msapplication-TileColor" content="#222" />
 		<meta name="msapplication-TileImage" content="/w8-tile.png" />
 		<meta name="msapplication-tooltip" content="My super-cool tooltip" />

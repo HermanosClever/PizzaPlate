@@ -1,0 +1,18 @@
+{
+	"name" : "Pizzaplate",
+	"version" : "0.8.0",
+	"description" : "Hermanos Clever Studio's website starter kit based on html5Boilerplate and experience :)",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/HermanosClever/PizzaPlate.git"
+	},
+	"dependencies" : {
+		"grunt" : "~0.4.5",
+		"grunt-contrib-watch" : "~0.6.1",
+		"grunt-contrib-sass" : "~0.7.3",
+		"grunt-contrib-uglify" : "~0.4.0",
+		"grunt-contrib-concat": "~0.4.0",
+		"grunt-contrib-clean" : "~0.5.0",
+		"grunt-contrib-copy": "~0.5.0"
+	}
+}

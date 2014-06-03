@@ -1,5 +1,5 @@
 <!-- Header -->
-			<header id="header">
+			<header id="header" role="banner">
 				<div class="wrapper">
 					(Header)
 				</div>
