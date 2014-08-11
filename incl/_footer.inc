@@ -1,6 +1,6 @@
 <!-- Footer -->
 			<footer id="footer" role="contentinfo">
 				<div class="wrapper">
-					(Footer)
+					(Footer):)
 				</div>
 			</footer>

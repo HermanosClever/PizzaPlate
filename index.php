@@ -12,7 +12,7 @@ $lang = 'es';
 	</head>
 	<body class="<?php echo $page; ?> _dev">
 		<div class="page">
-
+			:)
 			<?php include 'incl/_header.inc'; ?>
 			<?php include 'incl/_menu.inc'; ?>
 

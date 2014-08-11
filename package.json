@@ -19,10 +19,10 @@
   "devDependencies": {
     "gulp": "^3.8.5",
     "gulp-concat": "^2.2.0",
+    "gulp-livereload": "^2.1.0",
     "gulp-notify": "^1.4.0",
     "gulp-plumber": "^0.6.4",
     "gulp-rename": "^1.2.0",
-    "gulp-rimraf": "^0.1.0",
     "gulp-ruby-sass": "^0.7.1",
     "gulp-sass": "^0.7.2",
     "gulp-uglify": "^0.3.1",
