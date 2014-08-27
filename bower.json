@@ -1,0 +1,27 @@
+{
+  "name": "PizzaPlate",
+  "version": "0.9.0",
+  "homepage": "https://github.com/HermanosClever/PizzaPlate",
+  "authors": [
+    "Oneeyedman <carlos@sidiostedalimones.com>"
+  ],
+  "description": "Our gulp-ready-website-starter-kit based on html5Boilerplate and experience :)",
+  "main": "index.php",
+  "keywords": [
+    "pizza",
+    "starter",
+    "kit",
+    "website",
+    "gulp",
+    "murdock",
+    "hermanosclever"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
