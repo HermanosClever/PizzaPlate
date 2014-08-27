@@ -64,6 +64,7 @@ gulp.task('deploy', function(){
 		'!checklist.todo',
 		'!gulpfile.js',
 		'!package.json',
+		'!bower.json',
 		'!readme.md'
 		])
 		.pipe( gulp.dest( '_' + date + '-' + project_folder + '-' + time + '/') );
