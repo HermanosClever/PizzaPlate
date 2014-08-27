@@ -12,14 +12,13 @@ $lang = 'es';
 	</head>
 	<body class="<?php echo $page; ?> _dev">
 		<div class="page">
-			:)
 			<?php include 'incl/_header.inc'; ?>
 			<?php include 'incl/_menu.inc'; ?>
 
 			<!-- Main content -->
 			<main id="main" role="main">
 				<div class="wrapper">
-					<p>(Main contents)</p>
+					<p>(Main content)</p>
 				</div>
 			</main>
 

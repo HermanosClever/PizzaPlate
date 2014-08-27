@@ -1,27 +1,29 @@
 var gulp = require( 'gulp' ),
-		sass = require( 'gulp-ruby-sass' ),
-		rename = require('gulp-rename'),
-		concat = require('gulp-concat'),
-		uglify = require('gulp-uglify'),
-		notify = require('gulp-notify'),
-		plumber = require('gulp-plumber'),
-		gutil = require('gulp-util'),
+		sass       = require('gulp-ruby-sass'),
+		cssminifiy = require('gulp-minify-css'),
+		rename     = require('gulp-rename'),
+		concat     = require('gulp-concat'),
+		uglify     = require('gulp-uglify'),
+		notify     = require('gulp-notify'),
+		plumber    = require('gulp-plumber'),
+		gutil      = require('gulp-util'),
 		livereload = require('gulp-livereload');
 
-var build_folder = '_build';
+var project_folder = 'my_project';
 var onError = function (err) {
   gutil.beep();
   console.log(err);
 };
 
 gulp.task( 'scss_styles' , function(cb) {
-	return gulp.src( '_dev/scss/*.scss' )
+	return gulp.src('_dev/scss/*.scss')
 		.pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
-		.pipe( sass({ style: 'expanded'}) )
-		.pipe( gulp.dest( 'css/' ) )
-		.pipe( rename({suffix: '.min'} ) )
-		.pipe( gulp.dest( 'css/' ) );
-		//.pipe( notify({message: 'CSS OK'}));
+		.pipe(sass({ style: 'expanded'}))
+		.pipe(gulp.dest( 'css/'))
+		.pipe(notify({message: 'CSS OK'}))
+    .pipe(cssminifiy())
+		.pipe(rename({suffix: '.min'}))
+		.pipe(gulp.dest( 'css/' ) );
 });
 
 gulp.task('js_plugins', function(){
@@ -42,7 +44,16 @@ gulp.task('js_scripts', function(){
 		.pipe( notify({message: 'JS OK'}));
 });
 
+
 gulp.task('deploy', function(){
+	var now = new Date(),
+	time = '' + now.getHours() + now.getMinutes(),
+	month = (now.getMonth()+1),
+	date;
+	if (month < 10) { month = '0' + month; }
+	date = '' + now.getFullYear() + month + now.getDate();
+	date = date.replace('2014','14');
+
 	gulp.src([
 		'*.*',
 		'*/**',
@@ -52,10 +63,11 @@ gulp.task('deploy', function(){
 		'!node_modules',
 		'!checklist.todo',
 		'!gulpfile.js',
-		'!package.json'
+		'!package.json',
+		'!readme.md'
 		])
-		.pipe( gulp.dest( build_folder + '/') );
-})
+		.pipe( gulp.dest( '_' + date + '-' + project_folder + '-' + time + '/') );
+});
 
 
 gulp.task('watch', function(){
@@ -65,6 +77,6 @@ gulp.task('watch', function(){
 	gulp.watch('_dev/scss/*.scss', ['scss_styles']);
 	gulp.watch('css/*.css').on('change', livereload.changed);
 	gulp.watch(['*.php','*.html','incl/*.inc']).on('change', livereload.changed);
-})
+});
 
 gulp.task('default', ['watch']);

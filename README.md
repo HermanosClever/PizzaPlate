@@ -1,8 +1,35 @@
 # &lt;PizzaPlate /&gt;
 
-Our website codekit-ready-starter-kit based on html5Boilerplate and experience :)
+Our gulp-ready-website-starter-kit based on html5Boilerplate and experience :)
 
-## Item versions
+## Gulp dependencies
+* **gulp**: ver. ~3.8.5
+* **gulp-concat**: ver. ~2.2.0
+* **gulp-livereload**: ver. ~2.1.0
+* **gulp-minify-css**: ver. ~0.3.7
+* **gulp-notify**: ver. ~1.4.0
+* **gulp-plumber**: ver. ~0.6.4
+* **gulp-rename**: ver. ~1.2.0
+* **gulp-ruby-sass**: ver. ~0.7.1
+* **gulp-sass**: ver. ~0.7.2
+* **gulp-uglify**: ver. ~0.3.1
+* **gulp-util**: ver. ~3.0.0
+* **gulp-zi**p:ver. ~^2.0.
+
+## Gulp tasks
+### Deploy
+`$ gulp deploy` creates a production ready version inside a folder **_DATE(YYMMDD)-PROJECT-TIME(HHMM)**
+
+		ex: _140827-my-project-1139
+
+This "production version" excludes the following files/folders:
+* _dev/\*.\*
+* node_modules/\*.\*
+* checklist.todo
+* gulpfile.js
+* package.json
+
+## JS/CSS files
 | Item | Version | Downloaded from |
 | ------ | ------- | --- |
 | Normalize | v3.0.1 | http://www.initializr.com/
