@@ -125,3 +125,10 @@ textarea {
   top: 1em;
   z-index: 666;
 }
+
+div#aviso-cookies {
+  display: none;
+}
+div#aviso-cookies.mostrado {
+  display: block;
+}

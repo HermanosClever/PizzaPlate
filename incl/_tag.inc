@@ -1,9 +1,4 @@
-<!-- Analytics > change UA-XXXXX-X to be your site's ID.-->
-			<script>
-					(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-					function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-					e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-					e.src='//www.google-analytics.com/analytics.js';
-					r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-					ga('create','UA-XXXXX-X');ga('send','pageview');
-			</script>
+<div id="aviso-cookies">
+	<p>Nene, estamos usando cookies (al menos para analítica). Si pulsas el botón de aceptar o navegas un poco por la página entenderemos que aceptas la <a rel="section" title="Ver nuestra política de cookies" href="/politica-de-cookies/">política de cookies</a>.</p>
+	<button type="button" title="Acepto la política de cookies">¡Entendido!</button>
+</div>

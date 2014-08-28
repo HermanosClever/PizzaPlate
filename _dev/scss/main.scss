@@ -18,3 +18,11 @@ $debugMode:false;
 
 //	$1 Layout
 @include snitch();
+
+
+div#aviso-cookies {
+	display: none;
+	&.mostrado {
+		display: block;
+	}
+}
