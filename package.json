@@ -24,7 +24,6 @@
     "gulp-ruby-sass": "^0.7.1",
     "gulp-sass": "^0.7.2",
     "gulp-uglify": "^0.3.1",
-    "gulp-util": "^3.0.0",
-    "gulp-zip": "^2.0.1"
+    "gulp-util": "^3.0.0"
   }
 }
