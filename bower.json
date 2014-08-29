@@ -1,9 +1,9 @@
 {
   "name": "PizzaPlate",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "homepage": "https://github.com/HermanosClever/PizzaPlate",
   "authors": [
-    "Oneeyedman <carlos@sidiostedalimones.com>"
+    "Hermanos Clever Studio <hola@hermanosclever.com>"
   ],
   "description": "Our gulp-ready-website-starter-kit based on html5Boilerplate and experience :)",
   "main": "index.php",

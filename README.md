@@ -2,6 +2,15 @@
 
 Our gulp-ready-website-starter-kit based on html5Boilerplate and experience :)
 
+<!-- MarkdownTOC depth=2 -->
+
+- Gulp dependencies
+- Gulp tasks
+- JS/CSS files
+- EU cookie law
+
+<!-- /MarkdownTOC -->
+
 ## Gulp dependencies
 * **gulp**: ver. ~3.8.5
 * **gulp-concat**: ver. ~2.2.0
@@ -14,7 +23,6 @@ Our gulp-ready-website-starter-kit based on html5Boilerplate and experience :)
 * **gulp-sass**: ver. ~0.7.2
 * **gulp-uglify**: ver. ~0.3.1
 * **gulp-util**: ver. ~3.0.0
-* **gulp-zi**p:ver. ~^2.0.
 
 ## Gulp tasks
 ### Deploy
@@ -37,3 +45,9 @@ This "production version" excludes the following files/folders:
 | Modernizr | v2.8.3 | http://www.initializr.com/
 | Respond | v1.4.0 | http://www.initializr.com/
 | Width_snitch | v1 | https://github.com/oneeyedman/Width-Snitch/
+| Placeholder.js | v2.0.8 | http://mths.be/placeholder
+| jQuery Cookie Plugin | v1.4.0 | https://github.com/carhartl/jquery-cookie
+
+## EU cookie law
+This starter kit is now ready to comply with the European cookie law
+Tracking system: Google Analytics

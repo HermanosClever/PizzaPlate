@@ -1,13 +1,13 @@
 {
   "name": "pizza-plate",
-  "version": "0.9.0",
-  "description": "Website Starter Kit",
+  "version": "0.9.3",
+  "description": "Our gulp-ready-website-starter-kit based on html5Boilerplate and experience :)",
   "main": "index.php",
   "repository": {
     "type": "git",
     "url": "https://github.com/HermanosClever/PizzaPlate.git"
   },
-  "author": "Hermanos Clever",
+  "author": "Hermanos Clever Studio <hola@hermanosclever.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/HermanosClever/PizzaPlate/issues"

@@ -7,4 +7,4 @@ Layout:
 Deploy:
  ☐ Remove Snitch
  ☐ Analytics
- ☐ Build final version
+ ☐ Build production version "$ gulp deploy"
