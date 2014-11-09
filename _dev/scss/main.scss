@@ -20,9 +20,9 @@ $debugMode:false;
 @include snitch();
 
 
-div#aviso-cookies {
+div#cookie_alert {
 	display: none;
-	&.mostrado {
+	&.shown {
 		display: block;
 	}
 }

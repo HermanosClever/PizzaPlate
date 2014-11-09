@@ -3,22 +3,20 @@
 	@return #{$pixels/$context}em;
 }
 
+@function img($image, $path: $theme){
+	@return url( #{$path + $image});
+}
+
+@function lh( $fsize, $fline: $fsize ) {
+	@return #{ $fline * 100% / $fsize};
+}
+
 @function per($pixels, $context: $m_sitewidth) {
 	@return #{$pixels * 100%/$context};
 }
 
-@function rem($pixels, $context: $f_font_size) {
-	@return ($pixels / $context) * 1rem;
-}
-
-@function img($image){
-	@return url( #{$theme + $image});
-}
-
 // SCSS Mixins
 @mixin box-shadow( $horiz : 0 , $vert : .5em , $blur : 0px , $spread : 0px , $color : #000000 ){
-	-webkit-box-shadow: $horiz $vert $blur $spread $color;
-	-moz-box-shadow: $horiz $vert $blur $spread $color;
 	box-shadow: $horiz $vert $blur $spread $color;
 }
 
@@ -26,22 +24,6 @@
 	-webkit-box-sizing: $type;
 	-moz-box-sizing: $type;
 	box-sizing: $type;
-}
-
-@mixin column-count($cols: 2){
-	-webkit-column-count: $cols;
-	-moz-column-count: $cols;
-	-o-column-count: $cols;
-	-ms-column-count: $cols;
-	column-count: $cols;
-}
-
-@mixin column-gap($width:2em){
-	-webkit-column-gap: $width;
-	-moz-column-gap: $width;
-	-o-column-gap: $width;
-	-ms-column-gap: $width;
-	column-gap: $width;
 }
 
 @mixin fontFace($family ,$src , $weight:normal, $style: normal) {
@@ -55,11 +37,6 @@
 		font-style: $style;
 		font-weight: $weight;
 	}
-}
-
-@mixin font-size($pixels, $context: $f_font_size) {
-	font-size: $pixels * 1px;
-	font-size: rem($pixels, $context);
 }
 
 @mixin gradient($g_color1, $g_color2, $pos1:0%, $pos2:100%, $dir:top){
@@ -102,12 +79,6 @@
 @mixin transition($time: $base_time_transition, $property:all){
 	-webkit-transition: $time $property ease;
 	-moz-transition: $time $property ease;
-	-ms-transition: $time $property ease;
 	-o-transition: $time $property ease;
 	transition: $time $property ease;
-}
-
-@mixin to_rems($propiedad, $pixels, $context:$f_base_size){
-	#{$propiedad} : $px;
-	#{$propiedad} : rem($pixels, $context);
 }
