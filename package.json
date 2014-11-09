@@ -1,6 +1,6 @@
 {
   "name": "pizza-plate",
-  "version": "0.9.3",
+  "version": "0.9.4",
   "description": "Our gulp-ready-website-starter-kit based on html5Boilerplate and experience :)",
   "main": "index.php",
   "repository": {
