@@ -18,7 +18,7 @@ var onError = function (err) {
 gulp.task( 'scss_styles' , function(cb) {
 	return gulp.src('_dev/scss/*.scss')
 		.pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
-		.pipe(sass({ style: 'expanded'}))
+		.pipe(sass({ 'sourcemap=none': true, style: 'expanded'}))
 		.pipe(gulp.dest( 'css/'))
 		.pipe(notify({message: 'CSS OK'}))
     .pipe(cssminifiy())

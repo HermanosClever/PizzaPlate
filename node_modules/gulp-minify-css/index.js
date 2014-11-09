@@ -63,7 +63,8 @@ function minifyCSSGulp(opt){
     }
 
     if(file.isStream()) {
-      file.contents = file.contents.pipe(new BufferStreams(minifyCSSTransform(opt, file)));
+      file.contents = file.contents.pipe(new BufferStreams(minifyCSSTransform(opt, file)))
+      .on('error', this.emit.bind(this, 'error'));
       done(null, file);
       return;
     }
@@ -74,7 +75,12 @@ function minifyCSSGulp(opt){
     var relativeToTmp = opt.relativeTo;
     opt.relativeTo = relativeToTmp || path.resolve(path.dirname(file.path));
 
-    var newContents = minify(opt, file, file.contents);
+    try {
+      var newContents = minify(opt, file, file.contents);
+    } catch (err) {
+      this.emit('error', new gutil.PluginError('minify-css', err, { fileName: file.path } ));
+      return done(null, file);
+    }
 
     // Restore original "relativeTo" value
     opt.relativeTo = relativeToTmp;

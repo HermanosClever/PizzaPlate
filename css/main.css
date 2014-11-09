@@ -116,8 +116,8 @@ textarea {
 
 /* endif */
 .snitch {
-  background: black;
-  color: white;
+  background: #000;
+  color: #fff;
   left: 1em;
   opacity: .2;
   padding: .5em 1em;
